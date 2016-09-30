@@ -30,7 +30,7 @@
 #import "XLDataLoader.h"
 
 
-NSString * const kXLRemoteDataLoaderDefaultKeyForNonDictionaryResponse;
+extern NSString * const kXLRemoteDataLoaderDefaultKeyForNonDictionaryResponse;
 
 @class XLRemoteDataLoader;
 

@@ -26,7 +26,7 @@
 // THE SOFTWARE.
 
 
-NSString * const kXLRemoteDataLoaderDefaultKeyForNonDictionaryResponse = @"data";
+static NSString * const kXLRemoteDataLoaderDefaultKeyForNonDictionaryResponse = @"data";
 
 #import <AFNetworking/AFNetworking.h>
 #import "XLRemoteDataLoader.h"
