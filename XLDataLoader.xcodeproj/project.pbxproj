@@ -167,6 +167,7 @@
 		B23749671887283F002E0B8E /* XLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCollectionViewController.h; path = XL/Controller/XLCollectionViewController.h; sourceTree = "<group>"; };
 		B23749681887283F002E0B8E /* XLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCollectionViewController.m; path = XL/Controller/XLCollectionViewController.m; sourceTree = "<group>"; };
 		D398AD0423C758E700425E14 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		D398AD0523C759D500425E14 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = XL/AFNetworking.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -310,6 +311,7 @@
 		28E1DDEC181ACFF400E7FAF9 /* DataLoader */ = {
 			isa = PBXGroup;
 			children = (
+				D398AD0523C759D500425E14 /* AFNetworking.h */,
 				2839F79D18688D7D00FEBD38 /* XLDataLoader.h */,
 				2839F79E18688D7D00FEBD38 /* XLDataLoader.m */,
 				2839F79F18688D7D00FEBD38 /* XLLocalDataLoader.h */,
