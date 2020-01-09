@@ -166,6 +166,7 @@
 		755CEEF52AC74E62A56A0893 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B23749671887283F002E0B8E /* XLCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XLCollectionViewController.h; path = XL/Controller/XLCollectionViewController.h; sourceTree = "<group>"; };
 		B23749681887283F002E0B8E /* XLCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XLCollectionViewController.m; path = XL/Controller/XLCollectionViewController.m; sourceTree = "<group>"; };
+		D398AD0423C758E700425E14 /* AFNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -301,6 +302,7 @@
 				2839F7A718688F2900FEBD38 /* View */,
 				28E1DDED181AD03300E7FAF9 /* Controller */,
 				28E1DDEC181ACFF400E7FAF9 /* DataLoader */,
+				D398AD0423C758E700425E14 /* AFNetworking.h */,
 			);
 			name = XL;
 			sourceTree = "<group>";
@@ -552,6 +554,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
