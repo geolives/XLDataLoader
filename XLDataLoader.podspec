@@ -11,7 +11,11 @@ Pod::Spec.new do |s|
   s.source   = { :git => 'https://github.com/xmartlabs/XLDataLoader.git', :tag => 'v1.1.0'}
   s.source_files = 'XLDataLoader/XL/**/*.{h,m}'
   s.requires_arc = true
-  s.dependency 'AFNetworking', '~> 2.0', ':subspecs => [\'Reachability\', \'Serialization\', \'Security\', \'NSURLSession\', \'NSURLConnection\']'
+  s.dependency 'AFNetworking/Reachability', '~> 2.0'
+  s.dependency 'AFNetworking/Serialization', '~> 2.0'
+  s.dependency 'AFNetworking/Security', '~> 2.0'
+  s.dependency 'AFNetworking/NSURLSession', '~> 2.0'
+  s.dependency 'AFNetworking/NSURLConnection', '~> 2.0'
   s.ios.deployment_target = '6.0'
   s.ios.frameworks = 'UIKit', 'Foundation'
 end
